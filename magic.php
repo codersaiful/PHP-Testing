@@ -32,6 +32,10 @@ class Masic{
         $this->_arguments[$name] = $arguments;
         
     }
+    
+    public function displayDetails() {
+        echo "Saiful Islam";
+    }
 }
 
 $mag = new Masic();
@@ -42,4 +46,19 @@ $mag->etc = "Something";
 $mag->saiful = "Saiful Islam";
 $mag->saiful(333,444);
 $mag->etc(22,'saiful','islam',array(222,333,444));
-var_dump($mag);
+
+
+echo '<hr>';
+/**
+ * Check Class method
+ * @since 1.3
+ */
+if(class_exists("Masic")){
+    var_dump($mag);
+    echo '<br>Method Existing check<br>';
+    if(method_exists($mag, 'displayDetails')){
+        $mag->displayDetails();
+    }else{
+        echo 'Sorry, No Method Founded';
+    }
+}
