@@ -5,6 +5,6 @@
  * 
  * @version 1.2
  */
-$last_file_name = 'autoload_class';
+$last_file_name = 'chaining';
 include __DIR__ . '/' . $last_file_name . '.php';
 
