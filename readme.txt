@@ -10,3 +10,8 @@ for github:
 git@github.com:codersaiful/PHPTesting.git
 for gitBucket:
 git@bitbucket.org:coderisaiful/phptesting.git
+
+
+Primary step like bellow:
+git remote add origin git@bitbucket.org:coderisaiful/phptesting.git
+git push -u origin master
