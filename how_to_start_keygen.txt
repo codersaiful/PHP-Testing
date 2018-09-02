@@ -1,0 +1,23 @@
+code@DESKTOP-2Q9C4D3 MINGW64 ~/Desktop
+$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/code/.ssh/id_rsa):
+Created directory '/c/Users/code/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/code/.ssh/id_rsa.
+Your public key has been saved in /c/Users/code/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:2YYX2KkeXEPY6O2BRLacPGQIe5VsQxQRJXVvzcaA3Qk code@DESKTOP-2Q9C4D3
+The key's randomart image is:
++---[RSA 2048]----+
+|    .. *&@+ .Eo..|
+|     ..BOB.o...*.|
+|    . .+B+*   o =|
+|     . .oBoo . . |
+|        S.+.     |
+|       . +.      |
+|        .        |
+|                 |
+|                 |
++----[SHA256]-----+
