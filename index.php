@@ -5,6 +5,6 @@
  * 
  * @version 1.2
  */
-$last_file_name = 'magic';
+$last_file_name = 'autoload_class';
 include __DIR__ . '/' . $last_file_name . '.php';
 
